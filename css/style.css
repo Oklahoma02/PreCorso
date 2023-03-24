@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-section {
+    padding: 20px;
+
+}
+
+.image-container {
+    height: 500px;
+    background-image: url("https://www.lombardiafacile.regione.lombardia.it/wps/wcm/connect/4def2e43-e867-4eef-a96a-6689cf3837a3/Varenna%2Blago%2Bdi%2BComo_02.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE-4def2e43-e867-4eef-a96a-6689cf3837a3-my56v.x");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.titolo {
+    font-family: 'Prata', serif;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.regione {
+    font-family: 'Prata', serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+h1,
+h3 {
+    margin-bottom: 0px;
+}
+
+.autore {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.Luoghi {
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    border-radius: 6px;
+    color: #ffffff;
+    background: linear-gradient(90deg, #036428, #d7e60b);
+
+}
+
+ul {
+
+    list-style-type: none;
+
+}
+
+li {
+    color: #2c4bc7;
+    padding-left: 22px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border-bottom: #dfdfdf;
+    border: 1px solid;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#footer {
+    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 130px;
+    background-color: black;
+    color: white;
+}
